@@ -48,7 +48,7 @@ public class MoeBrowser extends JFrame {
 			display.setPage(userText);
 			addressBar.setText(userText);
 		}catch(Exception e){
-			display.setText("God damnit! Enter a valid URL disphit. Format: http://whatever.com");;
+			display.setText("Format: http://www.whatever.com");;
 			
 		}
 	}
